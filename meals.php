@@ -33,9 +33,9 @@ echo $myRandomBreakfast;
 //
 // $dinners = $xml->xpath('/data/Dinner');
 // $myRandomDinner = random_meal($dinners, $caloriesRemaining);
-
+//
 // $lunches = $xml->xpath('/data/Snacks');
 // $myRandomSnacks = random_meal($snacks, $caloriesRemaining);
 
 $myMeal = [$myRandomBreakfast, $myRandomLunch, $myRandomDinner, $myRandomSnacks];
-var_dump($myMeal);
+var_dump($myRandomBreakfast);

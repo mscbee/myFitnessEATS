@@ -4,6 +4,7 @@
     <title>myEATS</title>
     <script type="text/javascript" src="index.js"></script>
     <link href="index.css" rel="stylesheet" type="text/css" />
+    <? include "meals.php";
   </head>
 
   <body>
