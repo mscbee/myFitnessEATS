@@ -4,7 +4,6 @@
     <title>myEATS</title>
     <script type="text/javascript" src="index.js"></script>
     <link href="index.css" rel="stylesheet" type="text/css" />
-    <? include "meals.php";
   </head>
 
   <body>
@@ -28,10 +27,7 @@ if($_GET['calories']) {
           <button type="submit" value="submit">Get my meals!</button>
         </form><br><br>
 
-
-          <p id="meals"></p>
-
-          <?print_r($_SESSION);?>
+          <?include "meals.php";?>
 
 
 
